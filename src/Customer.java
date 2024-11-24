@@ -7,6 +7,7 @@
 - Адрес*/
 
 public class Customer {
+
     private int id;
     private String firstName;
     private String lastName;
@@ -17,8 +18,6 @@ public class Customer {
 
     public Customer() {
     }
-
-    ;
 
     public Customer(String tFirstName, String tLastName, String tEmail,
                     String tPassword, String tPhone, String tAddress) {
