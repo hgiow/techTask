@@ -15,11 +15,13 @@ public class Customer {
     private String phone;
     private String address;
 
-    public Customer(){
-    };
+    public Customer() {
+    }
+
+    ;
 
     public Customer(String tFirstName, String tLastName, String tEmail,
-                    String tPassword, String tPhone, String tAddress){
+                    String tPassword, String tPhone, String tAddress) {
 
         this.firstName = tFirstName;
         this.lastName = tLastName;
@@ -30,52 +32,62 @@ public class Customer {
 
     }
 
-    public int GetId(){
+    public int GetId() {
         return this.id;
     }
-    public void SetId(int tId){
+
+    public void SetId(int tId) {
         this.id = tId;
     }
 
-    public String GetFirstName(){
+    public String GetFirstName() {
         return this.firstName;
     }
-    public void SetFirstName(String tFirstName){
+
+    public void SetFirstName(String tFirstName) {
         this.firstName = tFirstName;
     }
 
-    public String GetLastName(){
+    public String GetLastName() {
         return this.lastName;
     }
-    public void SetLastName(String tLastName){
+
+    public void SetLastName(String tLastName) {
         this.lastName = tLastName;
     }
 
-    public String GetEmail(){
+    public String GetEmail() {
         return this.email;
     }
-    public void SetEmail(String tEmail){
+
+    public void SetEmail(String tEmail) {
         this.email = tEmail;
     }
 
-    public String GetPassword(){
+    public String GetPassword() {
         return this.password;
     }
-    public void SetPassword(String tPassword){
+
+    public void SetPassword(String tPassword) {
         this.password = tPassword;
     }
 
-    public String GetPhone(){
+    public String GetPhone() {
         return this.phone;
     }
-    public void SetPhone(String tPhone){
+
+    public void SetPhone(String tPhone) {
         this.phone = tPhone;
     }
 
-    public String GetAddress(){
+    public String GetAddress() {
         return this.address;
     }
-    public void SetAddress(String tAddress){
+
+    public void SetAddress(String tAddress) {
         this.address = tAddress;
     }
+
+    ///test
+
 }
