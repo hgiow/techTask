@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f46de8af-886e-48b6-842a-7db6bf4526b6" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -35,6 +43,9 @@
     &quot;accountId&quot;: &quot;b3b1b849-21a9-4ff7-a053-b39da1556a9b&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -48,17 +59,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestDatabaseConnection.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/Desktop/allU/3_semestr/prog/java/1_lab",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="TestDatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="envFilePaths">
+        <option value="JAVA_LIBRARY_PATH=C:\\Users\\User\\Desktop\\allU\\3_semestr\\prog\\javaTechTask\\mssql-jdbc_auth-12.8.1.x64.dll" />
+        <option value="JAVA_LIBRARY_PATH=C:\\Users\\User\\Desktop\\allU\\3_semestr\\prog\\javaTechTask\\mssql-jdbc_auth-12.8.1.x64.dll" />
+      </option>
+      <option name="MAIN_CLASS_NAME" value="TestDatabaseConnection" />
+      <module name="techTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDatabaseConnection" />
+      <module name="techTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.TestDatabaseConnection" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestDatabaseConnection" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +135,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732480215707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <option name="closed" value="true" />
+      <created>1732480570074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732480570074</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2">
+      <option name="closed" value="true" />
+      <created>1732480632542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732480632542</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2">
+      <option name="closed" value="true" />
+      <created>1732480721041</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732480721041</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
