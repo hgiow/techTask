@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f46de8af-886e-48b6-842a-7db6bf4526b6" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/impl/CustomerDAOImpl.java" afterDir="false" />
+    <list default="true" id="f46de8af-886e-48b6-842a-7db6bf4526b6" name="Changes" comment="чуть DAO сделал">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/DatabaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/techTask/TestDatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/techTask/TestDatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732487807904</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="чуть DAO сделал">
+      <option name="closed" value="true" />
+      <created>1732628897550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732628897550</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="чуть DAO сделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="чуть DAO сделал" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
