@@ -1,3 +1,5 @@
+package entities;
+
 import java.util.Date;
 
 public class Order {
@@ -6,8 +8,7 @@ public class Order {
     private Date closedDate;
     private String status;
 
-    Order(){
-    }
+    Order(){}
 
     Order(int tCustomerID, Date tCreatedDate,
           Date tClosedDate, String tStatus){
@@ -18,9 +19,7 @@ public class Order {
         this.status = tStatus;
     }
 
-    public int GetCustomerID(){
-        return this.customerID;
-    }
+    public int GetCustomerID() { return this.customerID; }
     public void SetCustomerID(int tCustomerID){
         this.customerID = tCustomerID;
     }

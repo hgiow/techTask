@@ -1,11 +1,12 @@
+package entities;
+
 public class OrderItem {
 
     private int orderID;
     private int productID;
     private int quantity;
 
-    OrderItem(){
-    }
+    OrderItem(){}
 
     OrderItem(int tOrderID, int tProductID,
               int tQuantity){

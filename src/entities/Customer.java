@@ -1,4 +1,4 @@
-/*1. Покупатель
+package entities;/*1. Покупатель
 - Имя
 - Фамилия
 - Почтовый ящик
@@ -16,8 +16,7 @@ public class Customer {
     private String phone;
     private String address;
 
-    public Customer() {
-    }
+    public Customer() {}
 
     public Customer(String tFirstName, String tLastName, String tEmail,
                     String tPassword, String tPhone, String tAddress) {

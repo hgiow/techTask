@@ -1,4 +1,4 @@
-/*3. Товар
+package entities;/*3. Товар
 - Название
 - Описание
 - Цена
@@ -13,9 +13,7 @@ public class Product {
     private BigDecimal price;
     private int quantity;
 
-
-    Product(){
-    }
+    Product(){}
 
     Product(String tName, String tDescription,
             BigDecimal tPrice,int tQuantity){
