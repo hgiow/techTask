@@ -3,7 +3,7 @@
 .out/
 .vscode/
 .idea/
-git 
+git
 *.log
 
 # System files
@@ -11,3 +11,4 @@ git
 Thumbs.db
 *.dll
 *.xml
+*.iml
