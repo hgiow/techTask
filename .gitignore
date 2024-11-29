@@ -1,16 +1,13 @@
-# Java class files
 *.class
 
-# IDE folders
-.idea/
+.out/
 .vscode/
-
-# Log files
+.idea/
+git 
 *.log
 
 # System files
 .DS_Store
 Thumbs.db
-
 *.dll
 *.xml
